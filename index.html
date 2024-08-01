@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kos.studio.beauty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="nails_6779265.png" type="image/x-icon">
+    <!-- Подключение jQuery перед script.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#services">Služby</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#contact">Kontakty</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="intro">
+            <h1>Vítejte v našem nehtovém studiu!</h1>
+            <p>Nabízíme profesionální péči o nehty a stylový design vašeho manikúru.</p>
+            <a href="#contact" class="btn">Objednat se</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Naše služby</h2>
+        <div class="services-list">
+            <div class="service">
+                <h3>Manikúra</h3>
+                <p>Snažíme se vytvořit dokonalý vzhled pro každou zákaznici, poskytujeme vysokokvalitní služby manikúry s použitím nejmodernějších technik a materiálů.</p>
+                <a href="#contact" class="btn" onclick="makeAppointment('Manikúra')">Objednat se na manikúru</a>
+            </div>
+            <div class="service">
+                <h3>Pedikúra</h3>
+                <p>Snažíme se nabídnout našim zákazníkům vysokokvalitní pedikúrní služby v útulné a relaxační atmosféře, aby každý mohl užít péči o své nohy.</p>
+                <a href="#contact" class="btn" onclick="makeAppointment('Pedikúra')">Objednat se na pedikúru</a>
+            </div>
+            <!-- Add other services similarly -->
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerie prací</h2>
+        <div class="gallery">
+            <img src="1.png" alt="Příklad práce">
+            <img src="2.png" alt="Příklad práce">
+            <!-- Add other gallery images -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>O nás</h2>
+        <p>Mise našeho nehtového studia "kos.studio.beauty" spočívá v pomáhání každé zákaznici dosáhnout své individuální krásy a sebevědomí, poskytujeme vysokokvalitní a inovativní služby péče o nehty a ruce. Snažíme se vytvořit jedinečný zážitek, kde každé setkání s námi je příjemnou a nezapomenutelnou událostí.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakty</h2>
+        <p><b>Kontaktujte nás pro objednání nebo jakékoliv dotazy.</b></p>
+        <p>instagram:<b>kos.studio.beauty</b> </p>
+        <p> </p>
+    </section>
+    <footer>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/share/Ssd1CdpLGfRPCHPJ/" target="_blank"><img src="face.png" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/kos.studio.beauty?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="inst.png" alt="Instagram"></a></li>
+                <!-- Add other social media -->
+            </ul>
+    </footer>
+</body>
+</html>
